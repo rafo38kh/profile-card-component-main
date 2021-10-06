@@ -20,7 +20,7 @@ This is a solution to the [Profile Card Component Challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Screenshot](./images/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ### Links
 
