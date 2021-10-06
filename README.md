@@ -20,12 +20,12 @@ This is a solution to the [Profile Card Component Challenge on Frontend Mentor](
 
 ### Screenshot
 
-![screenshot](../images/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-with-scss-bem-and-css-flexbox-qyhqVqEpw](https://www.frontendmentor.io/solutions/profile-card-component-with-scss-bem-and-css-flexbox-qyhqVqEpw)
+- Live Site URL: [https://rafo38kh.github.io/profile-card-component-main/](https://rafo38kh.github.io/profile-card-component-main/)
 
 ## My process
 
@@ -38,6 +38,6 @@ This is a solution to the [Profile Card Component Challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@rafo38kh](https://www.frontendmentor.io/profile/rafo38kh)
+- GitHub - [@rafo38kh](https://github.com/rafo38kh)
+- Codewars - [@rafo38kh](https://www.codewars.com/users/rafo38kh)
