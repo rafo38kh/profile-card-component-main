@@ -1,0 +1,40 @@
+$color-primary: hsl(185, 75%, 39%);
+$color-primary--dark: hsl(229, 23%, 23%);
+$color-primary--light: hsl(227, 10%, 46%);
+$color-secondary: hsl(0, 0%, 59%);
+$color-secondary--light: hsl(0, 0%, 100%);
+
+$font-primary: "Kumbh Sans", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: $color-secondary;
+  font-family: $font-primary;
+  font-size: 1.6rem;
+  background-color: $color-primary;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: left 118% top 250%, right 115% bottom 250%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @media (min-width: 1140px) {
+    background-position: right 160% top 250%, left 145% bottom 290%;
+  }
+}

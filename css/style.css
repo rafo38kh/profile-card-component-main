@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  color: #969696;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.6rem;
+  background-color: #19a2ae;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: left 118% top 250%, right 115% bottom 250%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  @media (min-width: 1140px) {
+    body {
+      background-position: right 160% top 250%, left 145% bottom 290%; } }
+
+.container {
+  width: 90%;
+  max-width: 35rem; }
+
+.card {
+  background-color: white;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 17rem 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; }
+  .card__bg {
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem; }
+  .card__img {
+    border: 0.5rem solid white;
+    border-radius: 50%;
+    display: block;
+    margin-top: -5.5rem;
+    margin-bottom: 2rem; }
+  .card__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .card__name {
+    color: #2d3248;
+    font-size: 2rem;
+    margin-bottom: 1rem; }
+  .card__age {
+    margin-left: 1rem;
+    font-weight: 400; }
+  .card__location {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+  .card__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 0.1rem solid rgba(150, 150, 150, 0.5); }
+  .card__detail {
+    padding: 2.5rem 4.5rem; }
+    .card__detail-num {
+      color: #2d3248;
+      font-weight: 700;
+      font-size: 2rem; }
+    .card__detail-text {
+      font-weight: 400;
+      font-size: 1rem;
+      letter-spacing: 0.2rem; }
+
+.attribution {
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  margin: 2rem 0 1rem 0; }
+  .attribution__link:link, .attribution__link:visited {
+    color: #2d3248;
+    text-transform: uppercase;
+    transition: all 0.2s; }
+  .attribution__link:hover, .attribution__link:active {
+    color: white; }
